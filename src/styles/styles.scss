@@ -1,0 +1,332 @@
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+@import 'base/_reset';
+@import 'base/_fonts';
+@import 'components/_jquery.formstyler';
+@import 'components/_ion.rangeSlider.min';
+@import 'components/_slick';
+@import 'layout/_header';
+@import 'layout/_footer';
+@import 'layout/_content';
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
+@import 'rc-slider/assets/index.css';
+@import 'react-dropdown/style.css';
+
+
+body{
+     overflow-x: hidden;
+  
+}
+.ltr{
+    direction: ltr;
+  
+
+}
+.rtl .content{
+    font-family: 'Tajawal', sans-serif ;
+
+
+}
+.rtl{
+    direction: rtl;
+    font-family: 'Tajawal', sans-serif;
+
+}
+.rtl .header-nav{
+  
+    margin: 10px;
+   
+  }
+  .rtl .header-nav li a{
+    font-family: 'Tajawal', sans-serif;
+    font-size: 20px;
+  }
+
+  .rtl .main-block__content{
+ 
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      text-align: right;
+      font-family: 'Tajawal', sans-serif;
+
+
+  }
+
+  .rtl .discount .wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: right;
+
+     & .discount-info{
+        display: flex;
+       flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: right;
+     }
+    }
+  
+    .rtl form{
+        padding-right: 10px;
+    }
+    .rtl .subscribe-form{
+        text-align: right;
+  
+    }
+    .rtl form p{
+        text-align: right;
+        color: #D7408A;
+  
+    }
+
+    .rtl .footer-top__social{
+        text-align: right;
+    }
+    .rtl .footer{
+        text-align: right;
+    }
+
+    .rtl .footer-nav__col ul li a:before {
+        position: absolute;
+        right: -10px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-family: "icomoon";
+        content: "_";
+        color: #bbb;
+        font-size: 8px;
+    }
+
+    .rtl  .header-options li a {
+         display: flex; 
+         flex-direction: row-reverse;
+         align-items: center; 
+    }
+
+ .rtl .phone{
+     text-align: left;
+     display: flex;
+     justify-content: flex-end;
+ }
+ .rtl .discount .js-img{
+background-position: top;
+background-size: contain;
+font-family: 'Tajawal', sans-serif;
+ }
+ .rtl .discount-info p {
+  
+    color: #d7408a;
+    font-family: 'Tajawal', sans-serif;
+ }
+ .rtl .main-block p{
+     color: #222 !important;
+     font-size: 30px;
+     font-family: 'Tajawal', sans-serif;
+
+ }
+
+ .rtl .bread-crumbs li:after {
+   content: "";
+   
+ }
+ .rtl  .bread-crumbs:nth-child(2)::after {
+    position: absolute;
+    top: 75%;
+    transform: translate(-50%,50%);
+    left:47%;
+    content: "-";
+    color: #666666;
+    font-family: 'Tajawal', sans-serif;
+ }
+ .rtl .product-info {
+        text-align: right;
+        font-family: 'Tajawal', sans-serif;
+ }
+ .rtl .icon-cart:before,
+ .rtl .icon-heart:before {
+    margin: 0px;
+}
+.rtl   .header-nav li ul {
+    font-family: 'Tajawal', sans-serif;
+text-align: right;
+}
+
+.rtl .footer{
+    font-family: 'Tajawal', sans-serif;
+
+  
+}
+.rtl .cart{
+    text-align: right;
+    font-family: 'Tajawal', sans-serif;
+
+    .box-field{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    h5,
+.title5 {
+  font-size: 20px;
+  line-height: 100%;
+  font-family: "Tenor Sans";
+  text-transform: capitalize;
+  font-weight: 400;
+  color: #222222;
+  padding-right: 6px;
+}
+.cart-table__info-stock,
+.cart-table__info-num  {
+    padding-right: 4px;
+}
+
+
+.rtl  .counter-box {
+  margin-left: 10px;
+  flex-direction: row-reverse;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.cart-table__box{
+text-align: center;
+
+}
+.cart-table__col{
+    margin-left: "10px";
+}
+.cart-card-rtl{
+    text-align: right;
+
+}
+}
+
+.rtl .trending{
+    span,h2,ul li
+    {
+        font-family: 'Tajawal', sans-serif;
+    
+    }
+    
+} 
+.rtl .products-item__types span{
+    font-family: 'Tajawal', sans-serif;
+}
+.rtl .products-item__info {
+    font-family: 'Tajawal', sans-serif;
+
+    .products-item__name{
+        font-family: 'Tajawal', sans-serif;
+    }
+}
+.rtl .btn{
+    font-family: 'Tajawal', sans-serif;
+font-weight: normal;
+}
+.rtl .profile-orders__row{
+    flex-direction: row-reverse;
+    text-align: center;
+}
+.rtl .profile-aside__viewed{
+    text-align: right;
+}
+
+@media screen and (max-width: 767px){
+.rtl .header-content{
+    flex-direction: row-reverse;
+}}
+
+.rtl .header-content.active {
+    flex-direction: row-reverse;
+
+    .header-options{
+    
+       
+      li{
+        text-align: right;
+        margin-top: 10px;
+      }  
+
+    }
+    .header-box.active{
+        overflow: hidden;
+    }
+    .header-box.active .header-nav{
+        text-align: right;
+        margin-top: 60px;
+        
+    }
+    .header-box.active {
+        flex-wrap: wrap;
+        .btn-menu{
+            position: fixed;
+            top: 78px;
+        }
+    }
+
+
+}
+
+.rtl .trending-top span{
+    font-family: 'Amiri', serif;
+    font-size: 20px;
+}
+.rtl .trending-top h2{
+
+margin-top: 10px;
+
+}
+
+.rtl .cart-table{
+    text-align: right;
+}
+
+.rtl .profile,
+.rtl .wishlist{
+    font-family: 'Tajawal', sans-serif;
+
+}
+.rtl .wishlist{
+    .icon-arrow-md:before {
+      display: none;
+    }
+    .icon-arrow-md::before {
+        display: flex;
+        flex-direction:column-reverse;
+        content: "←";
+        font-size: 20px;
+        color: #d05278;}
+
+}
+.rtl  .counter-box{
+   flex-direction: row-reverse;
+   justify-content: right;
+
+}
+
+
+.rtl .checkout-content{
+    text-align: right;
+    .Dropdown-control{
+        text-align: left;
+    
+}
+   .icon-arrow::before{
+     content: "";
+   
+}
+.icon-info{
+    margin-right: 10px;
+}
+}
+
+.rtl .detail-block__item{
+    text-align: right;
+}
